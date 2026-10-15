@@ -13,7 +13,7 @@ cout<<"Age is : "<<age<<endl;
 }
 };
 
-class Studet : public Person{
+class Student : public Person{
 public: 
 int StuID;
 
@@ -23,6 +23,13 @@ void display(){
 };
 
 int main(){
+    Student a;
+ 
+    a.name= "Tanim";
+    a.age = 25;
+    a.StuID = 252311098;
 
+    a.show();
+    a.display();
 
 }
