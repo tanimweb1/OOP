@@ -30,3 +30,33 @@ b.display();
 
     return 0;
 }
+
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+class Student{
+
+
+public:
+int id;
+int marks;
+
+void display(){
+cout<<id<<endl<<marks<<endl;
+
+}
+
+};
+Student a;
+a.id = 98;
+a.marks = 87;
+
+Student b=a;
+b.display();
+
+
+
+
+    return 0;
+}
