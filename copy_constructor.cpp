@@ -60,3 +60,45 @@ b.display();
 
     return 0;
 }
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+class Student{
+
+
+public:
+int roll;
+string name;
+int marks;
+Student(int a,string b,int c){
+roll = a;
+name = b;
+marks = c;
+}
+
+Student(const Student&s){
+    roll = s.roll;
+    name = s.name;
+    marks = s.marks;
+}
+
+void display(){
+cout<<roll<<" "<<marks<<" "<<name<<endl;
+
+
+}
+
+};
+Student a(98,"Tanim",78);
+Student b(a);
+a.display();
+b.display();
+
+
+
+
+    return 0;
+}
