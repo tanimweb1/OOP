@@ -68,3 +68,37 @@ c.display();
 
     return 0;
 }
+
+// another
+
+#include<bits/stdc++.h>
+using namespace std;
+class Calculator{
+public: 
+int result;
+Calculator(){
+    result = 0;
+}
+Calculator(int x){
+    result = x;
+}
+Calculator(int a,int b){
+result = a+b;
+}
+void display(){
+    cout<<"Result is = "<<result<<endl;
+   // cout<<"marks is = "<<marks<<endl;
+}
+};
+int main(){
+Calculator a,b(10),c(10,20);
+a.display();
+b.display();
+c.display();
+
+
+
+
+
+    return 0;
+}
