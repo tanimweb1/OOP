@@ -64,3 +64,40 @@ b.display();
 
     return 0;
 }
+
+
+#include<bits/stdc++.h>
+using namespace std;
+class Product{
+    int productID;
+    int price;
+    int quantity;
+    
+public:
+Product(){
+ productID = 101;
+price = 500;
+quantity = 5;
+
+}
+int totalPrice(){
+    return price*quantity;
+}
+
+void display(){
+    cout<<"Total Price = "<<totalPrice()<<endl;
+}
+
+};
+
+int main(){
+
+Product a,b;
+a.totalPrice();
+b.totalPrice();
+a.display();
+b.display();
+
+
+    return 0;
+}
