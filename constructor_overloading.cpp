@@ -33,3 +33,38 @@ c.display();
 
     return 0;
 }
+
+
+// 
+
+#include<bits/stdc++.h>
+using namespace std;
+class area{
+public: 
+int result;
+area(int a){
+    result = a*a;
+}
+area(int x,int y){
+    result = x*y;
+}
+area(double c){
+result = 3.1417*c*c;
+}
+void display(){
+    cout<<"Result is = "<<result<<endl;
+   // cout<<"marks is = "<<marks<<endl;
+}
+};
+int main(){
+area a(10),b(10,10),c(10.0);
+a.display();
+b.display();
+c.display();
+
+
+
+
+
+    return 0;
+}
